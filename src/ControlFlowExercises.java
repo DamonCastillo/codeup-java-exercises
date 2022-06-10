@@ -55,8 +55,10 @@ public class ControlFlowExercises {
 //         while (!choice.equalsIgnoreCase("n")) ;
 
 
-        System.out.println("What was your Number Grade? ");
-        int userGrade = sc.nextInt();
+        String choice = "y";
+        do {
+            System.out.println("What was your Number Grade? ");
+            int userGrade = sc.nextInt();
             if (userGrade >= 88) {
                 System.out.println("You received an A");
             } else if (userGrade >= 80 & userGrade <= 87) {
@@ -68,10 +70,13 @@ public class ControlFlowExercises {
             } else {
                 System.out.println("You received a F");
             }
+            System.out.print("Continue? (y/n): ");
+            choice = sc.next();
+            System.out.println();
+        } while (!choice.equalsIgnoreCase("n"));
 
-
-        }
     }
+}
 
 
 
