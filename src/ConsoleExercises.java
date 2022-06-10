@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ConsoleExercies {
+public class ConsoleExercises {
     public static void main(String[] args) {
 //        String name = "Paul";
 //        System.out.println("Hi, I'm " + name + " !\n");
