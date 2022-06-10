@@ -42,17 +42,17 @@ public class ConsoleExercises {
 
         System.out.println(" Please enter the Width of your classroom");
 
-        Integer width = Integer.valueOf(scanner.nextLine());
+        int width = Integer.parseInt(scanner.nextLine());
 
         System.out.println(" Please enter the Length of your classroom");
 
-        Integer length = Integer.valueOf(scanner.nextLine());
+        int length = Integer.parseInt(scanner.nextLine());
 
-        Integer area = width * length;
+        int area = width * length;
 
         System.out.println("The area of the Classroom is :" + area + "sq" );
-        Integer  param = width * 2 + length * 2;
-        System.out.println("and the parameter of the class room is : " + param);
+        int  perim = width * 2 + length * 2;
+        System.out.println("and the perimeter of the class room is : " + perim);
 
     }
 }
