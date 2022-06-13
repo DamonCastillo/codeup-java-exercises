@@ -10,7 +10,7 @@ public class ControlFlowExercises {
 //            System.out.println(i);
 //        }
 //        int n = 5;
-//        long i =2;
+//        long i = 2;
 //        do {
 //            System.out.println(i);
 //            i *= i;
