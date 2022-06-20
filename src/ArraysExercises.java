@@ -1,8 +1,12 @@
- class ArraysExercises {
+import java.util.Arrays;
+
+class ArraysExercises {
 
 
-    public static void addPerson(){
-
+    public static String[]addPerson(String[] arr, String newName){
+        String[] newArr = Arrays.copyOf(arr, arr.length + 1);
+        newArr[arr.length] = newName;
+        return newArr;
     }
 
     public static void main(String[] args) {
@@ -12,6 +16,10 @@
 
         String[] people = {"john", "jim", "hope"};
         for (String person : people){
+            System.out.println(person);
+        }
+        people = addPerson(people, "bob");
+        for( String person : people){
             System.out.println(person);
         }
 

@@ -8,7 +8,10 @@ public class Input {
         System.out.println("Get String!");
         return sc.nextLine();
     }
-    boolean yesNo(){
+    public void clear() {
+        sc.nextLine();
+    }
+    public boolean yesNo(){
         System.out.println("Yes or No?");
         String userInput = sc.next();
 
