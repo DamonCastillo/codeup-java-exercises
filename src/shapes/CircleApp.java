@@ -11,10 +11,10 @@ public class CircleApp {
             System.out.println("Let's make a circle together!");
             Circle circle = new Circle(in.getDouble());
             System.out.println("A beautiful circle... Let's do some math.");
-            System.out.printf("Did you know that your beautiful circle has a circumference of %f?%n", circle.getCircumference());
-            System.out.printf("Did you know that your beautiful circle has an area of %f?%n", circle.getArea());
+            System.out.printf(" circle has a circumference of %f?%n", circle.getCircumference());
+            System.out.printf(" circle has an area of %f?%n", circle.getArea());
             System.out.println("Wow, that was so much fun!");
-            System.out.println("Do you want to make another beautiful circle?");
+            System.out.println("Do you want to make another circle?");
             in.clear();
             keepMakingCircles = in.yesNo();
             if (keepMakingCircles) {
@@ -29,4 +29,4 @@ public class CircleApp {
 
 
 
-}
+

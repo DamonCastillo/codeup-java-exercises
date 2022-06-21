@@ -12,7 +12,6 @@ public class MoviesApplication {
         System.out.println("Would like to see all movies or search by category?");
         userInput = sc.nextLine();
         if (userInput.equalsIgnoreCase("all")){
-            System.out.println(MoviesArray.toString());
         }
     }
 
