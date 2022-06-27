@@ -10,12 +10,9 @@ public class Rectangle extends Quadrilateral implements Measurable{
         this.width = width;
     }
 
-    public double getLength() {
-        return length;
-    }
-
-    public double getWidth() {
-        return width;
+    @Override
+    public double SetWidthAndLength(double width, double length) {
+        return 0;
     }
 
     //Methods

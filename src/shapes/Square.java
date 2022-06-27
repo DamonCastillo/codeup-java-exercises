@@ -31,4 +31,9 @@ public class Square extends Quadrilateral {
     public double getArea(){
         return side * side;
     }
+
+    @Override
+    public double SetWidthAndLength(double width, double length) {
+        return 0;
+    }
 }
